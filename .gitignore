@@ -1,0 +1,54 @@
+# Байткод Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Дистрибутивы и пакеты
+*.so
+dist/
+build/
+*.egg-info/
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Тестирование
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Локальные файлы
+*.log
+logs/
+*.db
+*.sqlite3
+
+# Временные файлы
+tmp/
+temp/
+
+# Конфигурационные файлы с секретами
+config.ini
+secrets.yaml
+.env.local
+.env.*.local
+
+# Документация
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
